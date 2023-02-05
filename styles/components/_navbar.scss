@@ -1,10 +1,23 @@
 // partials iniciam com "_"
+@import '../abstract/variaveis';
+// importando uma partial em uma partial
 
 nav{
     text-align: center;
     ul {
         li {
             display: inline-block;
+            padding: 1rem;
+            a{
+                text-decoration: none;
+                text-transform: uppercase;
+                font-weight: bold;
+                color: $cor-primaria;
+                &:hover {
+                    // seletor no sass, diferente do css padrão, usa-se o caracter &
+                    border-bottom: 2px solid $cor-secundaria;
+                }
+            }
         }
     }
 }

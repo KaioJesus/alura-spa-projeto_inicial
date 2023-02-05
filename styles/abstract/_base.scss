@@ -1,7 +1,8 @@
-// partial
-
-// aqui quem fica as variáveis
+@import './variaveis';
 
 html, body{
-    font-family: 'Roboto', sans-serif;
+    font-family: $fonte;
 }
+
+// partial
+// aqui quem fica as variáveis
