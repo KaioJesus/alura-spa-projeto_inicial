@@ -17,4 +17,28 @@ nav ul li a {
 }
 nav ul li a:hover {
   border-bottom: 2px solid #704F4F;
+}
+
+.banner {
+  background: url("../../imagens/banner.jpeg") 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 3rem;
+  background-color: #A77979;
+  opacity: 0.9;
+  border-radius: 35px;
+}
+.banner .inner-banner h1 {
+  font-size: 3rem;
+  color: #472D2D;
+}
+.banner .inner-banner h2 {
+  font-size: 1.5rem;
+  color: #704F4F;
 }/*# sourceMappingURL=style.css.map */
